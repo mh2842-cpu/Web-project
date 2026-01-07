@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="AI and its Applications">
+    <title>AI and its Application</title>
+    <link rel="stylesheet" type="text/css" href="proj.css" media="all">
+</head>
+<body>
+
+<!-- Home Page -->
+<section id="home">
+
+    <header class="header">
+        <h1>Welcome To My AI Website</h1>
+
+        <nav>
+        
+            <ul>
+                
+                <li><a href="#home">Home</a></li>
+                <li><a href="#types">AI Types</a></li>
+                <li><a href="#apps">AI Applications</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+ <div class="aid">
+    <div class="contact">
+        <h2>AI</h2>
+        <p>
+            Artificial intelligence is transforming scientific research as well as everyday life,
+            from communications to transportation to health care and more. <br>
+            Explore what defines AI, how it has evolved since the Turing Test,
+            and the future of artificial intelligence.
+        </p>
+    </div>
+    <img class="side-image" src="image1.jpg" alt="AI">
+ </div>
+
+</section>
+
+<!-- Types Page-->
+<section id="types">
+    <h2>Types of AI Techniques</h2>
+
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <th>AI Types</th>
+            <th>Description</th>
+            <th>Examples</th>
+        </tr>
+
+        <!-- First type -->
+        <tr>
+            <td>Machine Learning</td>
+            <td>Teaching computers to learn patterns from data without explicit programming</td>
+            <td>Predicting stock prices, Spam email classification, Customer segmentation</td>
+        </tr>
+
+        <!-- Second type -->
+        <tr>
+            <td>Deep Learning</td>
+            <td>A branch of Machine Learning using large neural networks for complex tasks.</td>
+            <td>Image recognition, Voice recognition, Self-driving cars</td>
+        </tr>
+
+        <!-- Third type -->
+        <tr>
+            <td>Natural Language Processing (NLP)</td>
+            <td>Techniques for understanding, processing, and generating human language.</td>
+            <td>Chatbots, Text summarization, Sentiment analysis, Language translation</td>
+        </tr>
+
+    </table>
+</section>
+
+<!--Applications Page-->
+<section id="apps">
+    <!-- Header -->
+    <div class="header">
+        <h2 class="header-title">AI Applications</h2>
+        <p class="header-description">
+            Artificial Intelligence (AI) is transforming many industries by enabling machines to think, learn, and make decisions like humans.
+        </p>
+    </div>
+
+    <!-- Applications -->
+    <div class="main-content">
+
+        <div class="ai-app">
+            <h3 class="ai-app-title">Healthcare</h3>
+            <p class="ai-app-description">
+                AI is revolutionizing healthcare by helping doctors and medical professionals make better decisions. AI systems can analyze medical images such as X-rays and MRIs to detect diseases early. It can assist in diagnosing illnesses, predicting patient outcomes, and even recommending personalized treatment plans.<br> Virtual health assistants powered by AI can answer patient queries, schedule appointments, and monitor patient health remotely.AI also plays a key role in drug discovery, speeding up the process of finding new medicines.
+            </p>
+            <video width="320" height="240" autoplay muted loop>
+                <source src="health.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="ai-app">
+            <h3 class="ai-app-title">Education</h3>
+            <p class="ai-app-description">
+                In education, AI is used to create adaptive learning systems that adjust the content according to the student's level. It can provide personalized tutoring, recommend resources, and automate grading to save teachers time. AI can also identify learning difficulties and suggest interventions for students who need extra support. Online learning platforms often use AI to track progress and suggest next steps to improve learning outcomes.
+            </p>
+            <img src="image2.jpg" alt="Education">
+        </div>
+
+        <div class="ai-app">
+            <h3 class="ai-app-title">Finance</h3>
+            <p class="ai-app-description">
+                AI is widely applied in finance for tasks such as fraud detection, risk management, and customer support. Machine learning algorithms can detect unusual patterns in transactions to prevent fraud. AI also helps in algorithmic trading, analyzing huge amounts of financial data to make predictions and optimize investment strategies. Banks use AI-powered chatbots to answer customer queries and provide personalized financial advice. Credit scoring and risk assessment are increasingly automated with AI systems.
+            </p>
+            <video width="320" height="240" autoplay muted loop>
+                <source src="finance.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="ai-app">
+            <h3 class="ai-app-title">Transportation</h3>
+            <p class="ai-app-description">
+                Transportation is being transformed by AI technologies that improve safety, efficiency, and convenience. Self-driving cars use AI to perceive the environment, make decisions, and navigate roads. AI helps in traffic prediction and route optimization to reduce congestion and save fuel.<br> It is also used in logistics to optimize delivery routes and schedules. Drones and autonomous vehicles for goods delivery are emerging, all powered by AI systems that can plan and adapt in real-time.
+            </p>
+            <video width="320" height="240" autoplay muted loop>
+                <source src="trans.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+    </div>
+</section>
+
+<!-- Contact Form -->
+<section id="contact" class="section">
+    <h2>Contact us</h2>
+
+    <form id="ai-form">
+        <fieldset>
+            <legend>Contact Us</legend>
+
+            <div class="form-group">
+                <label for="name">Name *</label>
+                <input type="text" id="name" required placeholder="Your name" name="name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" required placeholder="Your email" name="email">
+            </div>
+
+            <div class="form-group">
+                <label for="interest">AI Interest Area</label>
+                <select id="interest" name="interest">
+                    <option disabled selected hidden>Select interest</option>
+                    <option value="healthcare">Healthcare AI</option>
+                    <option value="education">Educational AI</option>
+                    <option value="finance">Financial AI</option>
+                    <option value="transportation">Transportation AI</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" rows="2" name="message" placeholder="Ask about AI applications..."></textarea>
+            </div>
+
+            <div class="form-group checkbox">
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Subscribe to AI updates</label>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                Send Message
+            </button>
+
+        </fieldset>
+    </form>
+
+</section>
+
+</body>
+</html>
